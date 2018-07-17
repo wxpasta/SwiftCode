@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6147A0D520DA28AE0017AFC7 /* BJLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147A0CC20DA28AE0017AFC7 /* BJLinkedList.swift */; };
+		6147A0D620DA28AE0017AFC7 /* BJGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147A0CD20DA28AE0017AFC7 /* BJGeneric.swift */; };
+		6147A0D720DA28AE0017AFC7 /* BJCustomUIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147A0CE20DA28AE0017AFC7 /* BJCustomUIViewControllerExtension.swift */; };
+		6147A0D820DA28AE0017AFC7 /* BJDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147A0CF20DA28AE0017AFC7 /* BJDebug.swift */; };
+		6147A0D920DA28AE0017AFC7 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147A0D020DA28AE0017AFC7 /* MyClass.swift */; };
+		6147A0DA20DA28AE0017AFC7 /* BJCustomUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147A0D120DA28AE0017AFC7 /* BJCustomUIImageExtension.swift */; };
+		6147A0DB20DA28AE0017AFC7 /* BJFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147A0D220DA28AE0017AFC7 /* BJFunc.swift */; };
+		6147A0DC20DA28AE0017AFC7 /* BJArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147A0D320DA28AE0017AFC7 /* BJArrayDataSource.swift */; };
+		6147A0DD20DA28AE0017AFC7 /* BJControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6147A0D420DA28AE0017AFC7 /* BJControl.swift */; };
 		7F13C3F21F58203A002F2ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F13C3F11F58203A002F2ADA /* AppDelegate.swift */; };
 		7F13C3F41F58203A002F2ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F13C3F31F58203A002F2ADA /* ViewController.swift */; };
 		7F13C3F71F58203A002F2ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F13C3F51F58203A002F2ADA /* Main.storyboard */; };
@@ -91,6 +100,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6147A0CC20DA28AE0017AFC7 /* BJLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJLinkedList.swift; sourceTree = "<group>"; };
+		6147A0CD20DA28AE0017AFC7 /* BJGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJGeneric.swift; sourceTree = "<group>"; };
+		6147A0CE20DA28AE0017AFC7 /* BJCustomUIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJCustomUIViewControllerExtension.swift; sourceTree = "<group>"; };
+		6147A0CF20DA28AE0017AFC7 /* BJDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJDebug.swift; sourceTree = "<group>"; };
+		6147A0D020DA28AE0017AFC7 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		6147A0D120DA28AE0017AFC7 /* BJCustomUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJCustomUIImageExtension.swift; sourceTree = "<group>"; };
+		6147A0D220DA28AE0017AFC7 /* BJFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJFunc.swift; sourceTree = "<group>"; };
+		6147A0D320DA28AE0017AFC7 /* BJArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJArrayDataSource.swift; sourceTree = "<group>"; };
+		6147A0D420DA28AE0017AFC7 /* BJControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJControl.swift; sourceTree = "<group>"; };
 		7F13C3EE1F58203A002F2ADA /* SwiftCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F13C3F11F58203A002F2ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F13C3F31F58203A002F2ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -286,6 +304,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6147A0CB20DA28AE0017AFC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6147A0CC20DA28AE0017AFC7 /* BJLinkedList.swift */,
+				6147A0CD20DA28AE0017AFC7 /* BJGeneric.swift */,
+				6147A0CE20DA28AE0017AFC7 /* BJCustomUIViewControllerExtension.swift */,
+				6147A0CF20DA28AE0017AFC7 /* BJDebug.swift */,
+				6147A0D020DA28AE0017AFC7 /* MyClass.swift */,
+				6147A0D120DA28AE0017AFC7 /* BJCustomUIImageExtension.swift */,
+				6147A0D220DA28AE0017AFC7 /* BJFunc.swift */,
+				6147A0D320DA28AE0017AFC7 /* BJArrayDataSource.swift */,
+				6147A0D420DA28AE0017AFC7 /* BJControl.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7F13C3E51F58203A002F2ADA = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +361,7 @@
 		7F13C3F01F58203A002F2ADA /* SwiftCode */ = {
 			isa = PBXGroup;
 			children = (
+				6147A0CB20DA28AE0017AFC7 /* Classes */,
 				7F13C3F11F58203A002F2ADA /* AppDelegate.swift */,
 				7F13C3F31F58203A002F2ADA /* ViewController.swift */,
 				7F13C3F51F58203A002F2ADA /* Main.storyboard */,
@@ -715,7 +750,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "巴糖";
 				TargetAttributes = {
 					7F13C3ED1F58203A002F2ADA = {
@@ -928,8 +963,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6147A0D520DA28AE0017AFC7 /* BJLinkedList.swift in Sources */,
+				6147A0DB20DA28AE0017AFC7 /* BJFunc.swift in Sources */,
+				6147A0DC20DA28AE0017AFC7 /* BJArrayDataSource.swift in Sources */,
 				7F13C3F41F58203A002F2ADA /* ViewController.swift in Sources */,
+				6147A0D720DA28AE0017AFC7 /* BJCustomUIViewControllerExtension.swift in Sources */,
 				7F13C3F21F58203A002F2ADA /* AppDelegate.swift in Sources */,
+				6147A0D620DA28AE0017AFC7 /* BJGeneric.swift in Sources */,
+				6147A0DD20DA28AE0017AFC7 /* BJControl.swift in Sources */,
+				6147A0D820DA28AE0017AFC7 /* BJDebug.swift in Sources */,
+				6147A0DA20DA28AE0017AFC7 /* BJCustomUIImageExtension.swift in Sources */,
+				6147A0D920DA28AE0017AFC7 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1264,6 +1308,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1271,6 +1316,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1321,6 +1367,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1328,6 +1375,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
