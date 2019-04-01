@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.menuVC = self.storyboard?.instantiateViewController(withIdentifier: "menuVC") as! MenuViewController
+        self.menuVC = self.storyboard?.instantiateViewController(withIdentifier: "menuVC") as? MenuViewController
         
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.handleSwipe))
         swipeRight.direction = .right
@@ -34,9 +34,9 @@ class ViewController: UIViewController {
 
     @objc func handleSwipe(gesture: UISwipeGestureRecognizer) {
         switch gesture.direction {
-        case UISwipeGestureRecognizerDirection.right:
+        case UISwipeGestureRecognizer.Direction.right:
             showMenu()
-        case UISwipeGestureRecognizerDirection.left:
+        case UISwipeGestureRecognizer.Direction.left:
             hideMenu()
         default:
             break
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     func showMenu() {
         UIView.animate(withDuration: 0.3) {
             self.menuVC.view.frame = CGRect(x: 0, y: 60, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-            self.addChildViewController(self.menuVC)
+            self.addChild(self.menuVC)
             self.view.addSubview(self.menuVC.view)
             AppDelegate.isMenuVC = false
         }

@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
 
     private func updateFlipCountLabel(){
-        let attributes: [NSAttributedStringKey: Any] = [
+        let attributes: [NSAttributedString.Key: Any] = [
             .strokeColor : #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1),
             .strokeWidth : 5.0
         ]
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     @IBAction private func touchCard(_ sender: UIButton) {
         print("agh! a ghost!")
         flipCount += 1
-        if let cardNumber = cardButtons.index(of: sender){
+        if let cardNumber = cardButtons.firstIndex(of: sender){
             game.chooseCard(at: cardNumber)
             updateViewFromModel()
             print("cardNumber: \(cardNumber)")

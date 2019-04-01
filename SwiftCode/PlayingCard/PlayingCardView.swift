@@ -56,7 +56,7 @@ class PlayingCardView: UIView {
         font = UIFontMetrics(forTextStyle: .body).scaledFont(for: font)
         let paragraphStyle =   NSMutableParagraphStyle()
         paragraphStyle.alignment = .center
-        return NSAttributedString(string: string, attributes: [NSAttributedStringKey.paragraphStyle: paragraphStyle, .font: font])
+        return NSAttributedString(string: string, attributes: [NSAttributedString.Key.paragraphStyle: paragraphStyle, .font: font])
     }
     
     private var cornerString: NSAttributedString{

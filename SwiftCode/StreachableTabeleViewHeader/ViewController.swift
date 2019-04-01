@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         tableView.estimatedRowHeight = 50
-        tableView.contentInset = UIEdgeInsetsMake(300, 0, 0, 0)
+        tableView.contentInset = UIEdgeInsets(top: 300, left: 0, bottom: 0, right: 0)
         tableView.backgroundColor = UIColor.darkGray
         
         imageView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 300)
@@ -53,7 +53,7 @@ extension ViewController: UITableViewDelegate , UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
