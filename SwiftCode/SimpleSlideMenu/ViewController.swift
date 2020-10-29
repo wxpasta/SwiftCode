@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var menuBarButtonItem: UIBarButtonItem!
     
     var menuVC: MenuViewController!
+    var isMenuVC = true
     
     
     override func viewDidLoad() {
@@ -49,7 +50,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func menuBarButtomItem(_ sender: UIBarButtonItem){
-        if  AppDelegate.isMenuVC {
+        if  isMenuVC {
             showMenu()
         }else{
             hideMenu()
@@ -62,16 +63,16 @@ class ViewController: UIViewController {
             self.menuVC.view.frame = CGRect(x: 0, y: 60, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
             self.addChild(self.menuVC)
             self.view.addSubview(self.menuVC.view)
-            AppDelegate.isMenuVC = false
+            self.isMenuVC = false
         }
     }
 
     func hideMenu() {
         UIView.animate(withDuration: 0.3, animations: {
             self.menuVC.view.frame = CGRect(x: -UIScreen.main.bounds.width, y: 60, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        }) { (finished) in
+        }) { [self] (finished) in
             self.menuVC.view.removeFromSuperview()
-            AppDelegate.isMenuVC = true
+            isMenuVC = true
         }
     }
 }
